@@ -7,6 +7,7 @@ Usage
 -----
 
 This library supports the following devices:
+
     DS18B20
     DS18S20 - Please note there appears to be an issue with this series.
     DS1822
@@ -16,15 +17,16 @@ and your 5V power. If you are using the DS18B20, ground pins 1 and 3. The
 centre pin is the data line '1-wire'.
 
 Speakers, 4-8KOhm speakers connectivity:
-Speaker 1-st pin - Digital ground
-Speaker 2-nd pin - Digital pin 3
+
+    Speaker 1-st pin - Digital ground
+    Speaker 2-nd pin - Digital pin 3
 
 In order to run the project, the following libraries should be checked-out into the arduino library:
 
-1. git clone https://github.com/milesburton/Arduino-Temperature-Control-Library.git
-2. git clone https://github.com/going-digital/Talkie.git
-3. git clone https://github.com/n0m1/Sleep_n0m1.git
-4. git clone https://github.com/pbrook/arduino-onewire.git
+    1. git clone https://github.com/milesburton/Arduino-Temperature-Control-Library.git
+    2. git clone https://github.com/going-digital/Talkie.git
+    3. git clone https://github.com/n0m1/Sleep_n0m1.git
+    4. git clone https://github.com/pbrook/arduino-onewire.git
 
 License
 -------
